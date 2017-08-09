@@ -55,6 +55,12 @@ namespace VILICVANE.ForceUTF8
             stm_IgnoreExts = new HashSet<string>();
             stm_IgnoreExts.Add(".java");
             stm_IgnoreExts.Add(".rc");
+            stm_IgnoreExts.Add(".vcxproj");
+            stm_IgnoreExts.Add(".csproj");
+            stm_IgnoreExts.Add(".sln");
+            stm_IgnoreExts.Add(".vsixmanifest");
+            stm_IgnoreExts.Add(".htm");
+            stm_IgnoreExts.Add(".html");
         }
 
         /////////////////////////////////////////////////////////////////////////////
