@@ -92,8 +92,6 @@ namespace VILICVANE.ForceUTF8
                 return;
             }
 
-
-
             var path = document.FullName;
 
             // ignore specific file type
